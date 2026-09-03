@@ -1,7 +1,7 @@
 {
   "name": "parahuman",
   "version": "1.0.0",
-  "description": "Search brand and keyword mentions across Reddit, X, LinkedIn and eight more platforms, read sentiment and volume analytics, and tune what Parahuman monitors, without leaving the editor.",
+  "description": "Cursor Plugin for Parahuman - enables AI assistants to search brand mentions, track sentiment, manage monitored keywords, and more across your Parahuman workspace",
   "author": {
     "name": "Parahuman",
     "email": "support@parahuman.co"
