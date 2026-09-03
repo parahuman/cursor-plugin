@@ -1,0 +1,25 @@
+{
+  "name": "parahuman",
+  "version": "1.0.0",
+  "description": "Search brand and keyword mentions across Reddit, X, LinkedIn and eight more platforms, read sentiment and volume analytics, and tune what Parahuman monitors, without leaving the editor.",
+  "author": {
+    "name": "Parahuman",
+    "email": "support@parahuman.co"
+  },
+  "homepage": "https://parahuman.co",
+  "repository": "https://github.com/parahuman/cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "parahuman",
+    "social-listening",
+    "brand-monitoring",
+    "mentions",
+    "reddit",
+    "sentiment",
+    "analytics",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg",
+  "rules": "rules",
+  "mcpServers": ".mcp.json"
+}

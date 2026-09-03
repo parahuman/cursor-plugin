@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "parahuman": {
+      "type": "remote",
+      "url": "https://api.parahuman.co/mcp/v1"
+    }
+  }
+}
