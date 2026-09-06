@@ -5,7 +5,7 @@
   "description": "Cursor Plugin for Parahuman - enables AI assistants to search brand mentions, track sentiment, manage monitored keywords, and more across your Parahuman workspace",
   "author": {
     "name": "Parahuman",
-    "email": "support@parahuman.co"
+    "email": "hello@parahuman.co"
   },
   "homepage": "https://parahuman.co",
   "repository": "https://github.com/parahuman/cursor-plugin",
