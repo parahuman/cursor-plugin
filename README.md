@@ -31,9 +31,9 @@ Reddit, X (Twitter), LinkedIn, YouTube, GitHub, Hacker News, Dev.to, Stack Overf
 
 ## Authentication
 
-Install the plugin, then run any Parahuman tool. Cursor opens a browser for a normal OAuth sign-in and a consent screen listing what the agent is asking for.
+Install the plugin, then run any Parahuman tool. Cursor opens a browser for a normal OAuth sign-in, then a consent screen listing every permission the agent wants, reads and writes together, so you can see up front that it is asking to manage keywords and save reply drafts.
 
-The first consent covers reads only. If you ask the agent to add, pause or delete a keyword, the write tool answers with an `insufficient_scope` challenge asking for `keywords:write`. Approve that second screen if your client offers it, or reconnect from Cursor's MCP settings to grant the scope. Nothing writes to your workspace until you do.
+If you decline the write permissions, the read tools still work. A keyword change then answers with an `insufficient_scope` error naming what it needs, and you can grant it by reconnecting Parahuman from Cursor's MCP settings. Nothing writes to your workspace until you approve it.
 
 Every tool other than `list_workspaces` takes an explicit `workspace` argument, so start by asking the agent to list your workspaces.
 
