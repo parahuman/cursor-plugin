@@ -1,5 +1,6 @@
 {
   "name": "parahuman",
+  "displayName": "Parahuman",
   "version": "1.0.0",
   "description": "Cursor Plugin for Parahuman - enables AI assistants to search brand mentions, track sentiment, manage monitored keywords, and more across your Parahuman workspace",
   "author": {
