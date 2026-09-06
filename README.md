@@ -38,7 +38,7 @@ Sixteen tools in all. `draft_reply` never posts anything to the source platform.
 
 Install the plugin, then run any Parahuman tool. Cursor opens a browser for a normal OAuth sign-in, then a consent screen listing every permission the agent wants, reads and writes together, so you can see up front that it is asking to manage keywords, manage saved views and alerts, and save reply drafts.
 
-If you decline the write permissions, the read tools still work. A keyword change then answers with an `insufficient_scope` error naming what it needs, and you can grant it by reconnecting Parahuman from Cursor's MCP settings. Nothing writes to your workspace until you approve it.
+If you decline the write permissions, the read tools still work and the write tools are simply not offered to the agent. To grant a permission later, reconnect Parahuman from Cursor's MCP settings and approve it on the consent screen. Nothing writes to your workspace until you approve it.
 
 Every tool other than `list_workspaces` takes an explicit `workspace` argument, so start by asking the agent to list your workspaces.
 
