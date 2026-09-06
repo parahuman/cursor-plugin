@@ -20,6 +20,14 @@
     "analytics",
     "mcp"
   ],
+  "category": "data-analytics",
+  "tags": [
+    "mcp",
+    "social-media",
+    "monitoring",
+    "analytics",
+    "marketing"
+  ],
   "logo": "assets/logo.svg",
   "rules": "rules",
   "mcpServers": ".mcp.json"
