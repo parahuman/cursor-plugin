@@ -25,13 +25,18 @@ Reddit, X (Twitter), LinkedIn, YouTube, GitHub, Hacker News, Dev.to, Stack Overf
 | `update_keyword` | Rename or re-describe a term | `keywords:write` |
 | `set_keyword_paused` | Pause or resume monitoring | `keywords:write` |
 | `delete_keyword` | Stop monitoring a term | `keywords:write` |
+| `list_views` | Saved views with their filters, and whether each has an alert | `views:write` |
+| `update_view` | Rename a saved view | `views:write` |
+| `list_alerts` | Alerts, the view each one watches, and every destination | `views:write` |
+| `create_alert` | Create the alert for a saved view, with email or Slack destinations and a frequency | `views:write` |
+| `update_alert` | Rename, enable or disable an alert, or replace its destinations | `views:write` |
 | `draft_reply` | Generate a reply to one mention and save it as a draft | `replies:draft` |
 
-`draft_reply` never posts anything to the source platform. The draft is saved against the mention for a human to review and publish from the Parahuman dashboard.
+Sixteen tools in all. `draft_reply` never posts anything to the source platform. The draft is saved against the mention for a human to review and publish from the Parahuman dashboard.
 
 ## Authentication
 
-Install the plugin, then run any Parahuman tool. Cursor opens a browser for a normal OAuth sign-in, then a consent screen listing every permission the agent wants, reads and writes together, so you can see up front that it is asking to manage keywords and save reply drafts.
+Install the plugin, then run any Parahuman tool. Cursor opens a browser for a normal OAuth sign-in, then a consent screen listing every permission the agent wants, reads and writes together, so you can see up front that it is asking to manage keywords, manage saved views and alerts, and save reply drafts.
 
 If you decline the write permissions, the read tools still work. A keyword change then answers with an `insufficient_scope` error naming what it needs, and you can grant it by reconnecting Parahuman from Cursor's MCP settings. Nothing writes to your workspace until you approve it.
 
@@ -47,6 +52,7 @@ Ask the agent things like:
 - *"Find every unread mention matching our competitor keyword"*
 - *"Start monitoring the phrase 'social listening alternative'"*
 - *"Draft a friendly reply to that Hacker News comment"*
+- *"Send me a daily email digest of the 'competitor launches' view"*
 
 ## Disconnecting
 
