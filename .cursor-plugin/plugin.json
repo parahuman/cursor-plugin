@@ -15,10 +15,24 @@
     "social-listening",
     "brand-monitoring",
     "mentions",
-    "reddit",
     "sentiment",
     "analytics",
-    "mcp"
+    "marketing",
+    "market-intelligence",
+    "market-data",
+    "mcp",
+    "reddit",
+    "x",
+    "twitter",
+    "linkedin",
+    "youtube",
+    "github",
+    "hacker-news",
+    "bluesky",
+    "devto",
+    "stack-overflow",
+    "podcasts",
+    "newsletters"
   ],
   "category": "data-analytics",
   "tags": [
@@ -26,7 +40,9 @@
     "social-media",
     "monitoring",
     "analytics",
-    "marketing"
+    "marketing",
+    "market-intelligence",
+    "market-data"
   ],
   "logo": "assets/logo.svg",
   "rules": "rules",

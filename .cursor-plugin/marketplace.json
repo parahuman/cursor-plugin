@@ -1,0 +1,17 @@
+{
+  "name": "parahuman",
+  "owner": {
+    "name": "Parahuman",
+    "email": "hello@parahuman.co"
+  },
+  "metadata": {
+    "description": "Parahuman social listening for AI agents: brand mentions, sentiment and keyword monitoring across eleven platforms"
+  },
+  "plugins": [
+    {
+      "name": "parahuman",
+      "source": "./",
+      "description": "Search brand mentions, track sentiment, and manage monitored keywords across your Parahuman workspace"
+    }
+  ]
+}
