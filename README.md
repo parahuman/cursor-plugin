@@ -65,6 +65,7 @@ A Parahuman account. MCP access is included on every plan, including the free tr
 ## Links
 
 - [Parahuman](https://parahuman.co)
+- [MCP server guide](https://parahuman.co/docs/mcp)
 - [Support](mailto:support@parahuman.co)
 
 ## License
